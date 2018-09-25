@@ -1,0 +1,6 @@
+[submodule "lib/Real-World-Modelling-Simulation"]
+	path = lib/Real-World-Modelling-Simulation
+	url = https://github.com/Davidnln13/Real-World-Modelling-Simulation.git
+[submodule "lib/RWM"]
+	path = lib/RWM
+	url = https://github.com/KDaryl/RWM.git
