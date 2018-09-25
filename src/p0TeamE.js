@@ -1,6 +1,6 @@
 /*! p0TeamE v0.0.0 - MIT license */
 'use strict';
 
-var p0TeamE = function () {
+var p0TeamE = function (x) {
   // your code goes here
 }
