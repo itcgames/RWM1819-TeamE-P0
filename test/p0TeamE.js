@@ -7,9 +7,8 @@ describe('p0TeamE()', function () {
     expect(p0TeamE).to.be.a('function');
 
   });
-  it('computes modulo 3 of 7', function (x) {
-    expect(modulo_3(7)).to.be.a(1);
-
+  it('Computes the remainder after using modulo on 7', function () {
+    expect(modulo_3(7)).to.equal(1);
   });
 
   // Add more assertions here
