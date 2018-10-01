@@ -2,6 +2,7 @@
 'use strict';
 
 var p0TeamE = function (x) {
-  return modulo_3(x)
+
+  /*return Cube(x)*/
   // your code goes here
 }
