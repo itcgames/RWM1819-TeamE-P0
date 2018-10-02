@@ -28,7 +28,6 @@ var p0TeamE = function (x) {
   //return the array decrement_if_less_than_first
   var DecrementResultArray = decrement_if_less_than_first(Modulo_FirstResultArray);
 //  return DecrementResultArray;
-
   //Return the array running_total
   total = 0;
   input = 0;
