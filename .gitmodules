@@ -13,3 +13,6 @@
 [submodule "lib/RealWorldModelling"]
 	path = lib/RealWorldModelling
 	url = https://github.com/C00206286/RealWorldModelling.git
+[submodule "lib/RealLifeSim"]
+	path = lib/RealLifeSim
+	url = https://github.com/peterdaly97/RealLifeSim.git
