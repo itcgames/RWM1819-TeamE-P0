@@ -8,28 +8,48 @@ describe('p0TeamE()', function () {
 
   });
   // it('Returns a cubed array', function () {
-  //   expect(p0TeamE([6,5,4,3,2,1,7,8,9])).to.eql([216,125,64,27,8,1,343,512,729]);
+  //   expect(p0TeamE([2,4,3,1,6])).to.eql([8,64,27,1,216]);
   //
   // });
-  // it('cubes an array then returns the result of modulo 3', function () {
-  //   expect(p0TeamE([216,125,64,27,8,1,343,512,729])).to.eql([0,2,1,0,2,1,1,2,0]);
+  // it('Returns a modulo 3 array', function () {
+  //   expect(p0TeamE([8,64,27,1,216])).to.eql([2,1,0,1,0]);
   //
   // });
-  // it('cubes an array gets the result of modulo 3 then returns the result Modulo_First', function () {
-  //   expect(p0TeamE([0,2,1,0,2,1,1,2,0])).to.eql([0,2,1,0,2,1,1,2,0]);
+  // it('returns a modulo first array', function () {
+  //   expect(p0TeamE([2,1,0,1,0])).to.eql([0,1,0,1,0]);
   //
   // });
-  // it('cubes an array gets the result of modulo 3 then gets the result of Modulo_First then returns the result of decrement_if_less_than_first', function () {
-  //   expect(p0TeamE([0,2,1,0,2,1,1,2,0])).to.eql([0,2,1,0,2,1,1,2,0]);
+  // it('returns a decrement_if_less_than_first array', function () {
+  //   expect(p0TeamE([0,1,0,1,0])).to.eql([0,1,0,1,0]);
   //
   // });
-  // it('cubes an array gets the result of modulo 3 then gets the result of Modulo_First then gets the result of decrement_if_less_than_first then returns the result of running_total', function () {
-  //   expect(p0TeamE([0,2,1,0,2,1,1,2,0])).to.eql([0,2,3,0,5,6,7,9,0]);
+  // it('returns a running total array', function () {
+  //   expect(p0TeamE([0,1,0,1,0])).to.eql([0,1,1,2,2]);
   //
   // });
-  /*it('Returns an array after calculations', function () {
-    expect(p0TeamE([6,5,4,3,2,1,7,8,9])).to.eql([0,2,3,3,5,6,7,9,9]);
+  // it('returns a diff array', function () {
+  //   expect(p0TeamE([0,1,1,2,2])).to.eql([0,1,0,1,0]);
+  //
+  // });
+  // it('returns a fact array', function () {
+  //   expect(p0TeamE([0,1,0,1,0])).to.eql([1,1,1,1,1]);
+  //
+  // });
+  // it('returns a xor21 array', function () {
+  //   expect(p0TeamE([1,1,1,1,1])).to.eql([20,20,20,20,20]);
+  //
+  // });
+  // it('returns a collatz array', function () {
+  //   expect(p0TeamE([20,20,20,20,20])).to.eql([10,10,10,10,10]);
+  //
+  // });
+  // it('returns a fizzbuzz array', function () {
+  //   expect(p0TeamE([10,10,10,10,10])).to.eql([5,5,5,5,5]);
+  //
+  // });
+  it('Returns an array after calculations', function () {
+    expect(p0TeamE([2,4,3,1,6])).to.eql([5,5,5,5,5]);
 
-  });*/
+  });
   // Add more assertions here
 });
